@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>S08 Demo Govern — FinOps for Agentic Coding</title>
+<link rel="stylesheet" href="../base.css">
+<link rel="stylesheet" href="../app.css">
+<style>#deck { background: #d8d3c8; } .slide { display: flex !important; margin: 2rem auto; }</style>
+</head>
+<body>
+<!-- Standalone reference copy of this slide, for editing/review in isolation.
+     The presented deck is docs/index.html, which embeds this same content
+     inline (see manifest.js) so it works with zero cross-origin fetch risk
+     when opened directly from disk. Keep this file and its <section> in
+     index.html in sync when editing. -->
+<div id="deck">
+<section class="slide active" id="s08-demo-govern">
+    <h2>Demo 2 — Govern</h2>
+    <h1>Pinned, and gated by policy.</h1>
+    <ol class="steps">
+      <li>The reusable loop from Demo 1 ships as a versioned skill — <code class="inline">plugin.json</code> pins it, not a promise to remember.</li>
+      <li>A <code class="inline">PreToolUse</code> hook checks today's measured spend before the skill runs.</li>
+      <li>Over the cap: exit 2, the skill is blocked — not a suggestion, an enforced gate.</li>
+    </ol>
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinOps for Agentic Coding — Claude Code</title>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div id="deck">
+
+  <section class="slide" id="cover">
+    <div class="kicker">FinOps for Agentic Coding</div>
+    <h1>Claude Code<br><span class="accent">— cost you engineer, not negotiate —</span></h1>
+    <p class="lede">Your agentic bill is a variance you <strong>engineer</strong>, not a price you
+      <strong>negotiate</strong>. The lever is the loop.</p>
+  </section>
+
+  <section class="slide" id="intro">
+    <h2>Who this is for</h2>
+    <h1>Not developer basics.</h1>
+    <div class="grid-2">
+      <div class="col yes">
+        <h3>This is for</h3>
+        <ul>
+          <li>AI Champions</li>
+          <li>Platform leads</li>
+          <li>Admins accountable for spend</li>
+        </ul>
+      </div>
+      <div class="col no">
+        <h3>This is not</h3>
+        <ul>
+          <li>Prompting 101</li>
+          <li>A model comparison</li>
+          <li>A vendor pitch</li>
+        </ul>
+      </div>
+    </div>
+    <p class="lede" style="margin-top:2rem;font-size:1.1rem">~60 minutes. Three live demos, run against real logs — including, if you want, yours.</p>
+  </section>
+
+  <section class="slide" id="s01-number">
+    <h2>The hook</h2>
+    <div class="big-number placeholder">$—</div>
+    <p class="lede">One team's illustrative gap between a right-sized loop and a habit of
+      re-exploring from scratch every single run.</p>
+    <div class="callout">We won't ask you to trust this number. In about 12 minutes, Demo 3
+      shows you how to get <strong>your own</strong> — measured, from your own local Claude
+      Code logs, live.</div>
+  </section>
+
+  <section class="slide" id="s02-reframe">
+    <h2>Reframe</h2>
+    <h1>A line item you negotiate. <span class="accent">✗</span></h1>
+    <h1>A variance you engineer. <span class="accent">✓</span></h1>
+    <p class="lede" style="margin-top:2rem">The lever isn't the vendor contract. It's the loop
+      your agents run — and loops are something you design.</p>
+  </section>
+
+  <section class="slide" id="s03-why-not-dev">
+    <h2>Why this isn't prompting advice</h2>
+    <h1>"Write better prompts" doesn't scale.</h1>
+    <p class="lede">This is an <strong>operating-model</strong> problem: who designs the loop,
+      who governs it once it's reused, who's accountable for what it costs when it runs a
+      thousand times instead of once.</p>
+    <div class="callout good">→ Demo 1: DESIGN</div>
+  </section>
+
+  <section class="slide" id="s04-demo-design">
+    <h2>Demo 1 — Design</h2>
+    <h1>Explore once. Codify cheap.</h1>
+    <div class="grid-2">
+      <div class="col">
+        <h3>Explore (once)</h3>
+        <ul>
+          <li>Opus 5 / Fable 5</li>
+          <li>Open-ended judgment</li>
+          <li>Find the right approach</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Codify (every time)</h3>
+        <ul>
+          <li>Sonnet 5 / Haiku 4.5</li>
+          <li>Fixed execution</li>
+          <li>Escalate what doesn't fit</li>
+        </ul>
+      </div>
+    </div>
+    <pre class="code-block">genesis design --target claude-code</pre>
+  </section>
+
+  <section class="slide" id="s05-lifecycle-loop">
+    <h2>The lifecycle</h2>
+    <h1>Design feeds govern feeds measure feeds design.</h1>
+    <div class="loop-diagram">
+      <div class="loop-node">DESIGN</div>
+      <div class="loop-arrow">→</div>
+      <div class="loop-node">GOVERN</div>
+      <div class="loop-arrow">→</div>
+      <div class="loop-node">MEASURE</div>
+      <div class="loop-arrow">→</div>
+      <div class="loop-node">DESIGN</div>
+    </div>
+    <p class="lede" style="margin-top:2rem;font-size:1.1rem">Measurement isn't the end of the
+      loop — it's what tells you which loop to redesign next.</p>
+  </section>
+
+  <section class="slide" id="s06-money">
+    <h2>Number discipline</h2>
+    <h1>The comparison, once you've measured it</h1>
+    <table>
+      <thead><tr><th>Same high-value task</th><th>Cost</th><th>vs. right-sized</th></tr></thead>
+      <tbody>
+        <tr><td>Right-sized loop (explore once → cheap loop)</td><td class="placeholder">[regenerate locally]</td><td>1×</td></tr>
+        <tr><td>Same model, bad loop (re-explores every run)</td><td class="placeholder">[regenerate locally]</td><td class="placeholder">—</td></tr>
+        <tr><td>Premium default (highest tier everywhere)</td><td class="placeholder">[regenerate locally]</td><td class="placeholder">—</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">⚠ Every figure here is a notional, <strong>API-equivalent</strong> cost —
+      not a subscription bill. Run <code class="inline">demos/demo3-meter</code> against your own
+      logs before you present this slide, and say the caveat out loud.</div>
+  </section>
+
+  <section class="slide" id="s07-tooling">
+    <h2>Demo 2 — Govern</h2>
+    <h1>The tool map</h1>
+    <table>
+      <tbody>
+        <tr><td><strong>Claude Code</strong></td><td>the harness</td></tr>
+        <tr><td><strong>Plugins + hooks</strong></td><td>governance — pinning and policy gates</td></tr>
+        <tr><td><strong>genesis</strong></td><td>design</td></tr>
+      </tbody>
+    </table>
+    <div class="callout good" style="margin-top:2rem">→ Demo 2: GOVERN</div>
+  </section>
+
+  <section class="slide" id="s08-demo-govern">
+    <h2>Demo 2 — Govern</h2>
+    <h1>Pinned, and gated by policy.</h1>
+    <ol class="steps">
+      <li>The reusable loop from Demo 1 ships as a versioned skill — <code class="inline">plugin.json</code> pins it, not a promise to remember.</li>
+      <li>A <code class="inline">PreToolUse</code> hook checks today's measured spend before the skill runs.</li>
+      <li>Over the cap: exit 2, the skill is blocked — not a suggestion, an enforced gate.</li>
+    </ol>
+  </section>
+
+  <section class="slide" id="s09-demo-measure">
+    <h2>Demo 3 — Measure</h2>
+    <h1>It's already in your logs.</h1>
+    <div class="grid-2">
+      <div class="col">
+        <h3>Measured</h3>
+        <ul>
+          <li>Session & model cost</li>
+          <li>Subagent delegation cost — exact</li>
+        </ul>
+      </div>
+      <div class="col no">
+        <h3>Modeled</h3>
+        <ul>
+          <li>In-session skill cost — turn-attributed estimate</li>
+        </ul>
+      </div>
+    </div>
+    <pre class="code-block">python3 build_db.py && python3 export_dashboard.py
+open dashboard.html   # your logs, live</pre>
+  </section>
+
+  <section class="slide" id="s10-playbook">
+    <h2>Playbook</h2>
+    <h1>Three plays</h1>
+    <ol class="steps">
+      <li><strong>Tier the models.</strong> Match model and effort to the job — not the most capable setting by default.</li>
+      <li><strong>Pool the spend.</strong> One visible number your team can see, not N invisible personal ones.</li>
+      <li><strong>Codify the top loops.</strong> Demo 1 → Demo 2 — pinned, versioned, gated.</li>
+    </ol>
+  </section>
+
+  <section class="slide" id="s11-exercise">
+    <h2>Exercise</h2>
+    <h1>Your turn — 10 minutes, pairs</h1>
+    <ol class="steps">
+      <li>Pick one task your team repeats weekly.</li>
+      <li>What does "explore" look like for it, and what would "codify" fix in place?</li>
+      <li>Which model/effort does each half actually need?</li>
+    </ol>
+  </section>
+
+  <section class="slide" id="resources">
+    <h2>Resources</h2>
+    <h1>Go further</h1>
+    <ul style="font-size:1.15rem;line-height:2.2">
+      <li>This repo — <code class="inline">github.com/&lt;you&gt;/claude-finops-workshop</code></li>
+      <li>genesis — <code class="inline">github.com/danielmeppiel/genesis</code></li>
+      <li>Claude Code plugin docs — <code class="inline">code.claude.com/docs/en/plugins-reference</code></li>
+      <li>Anthropic pricing — <code class="inline">platform.claude.com/docs/en/pricing</code></li>
+    </ul>
+    <p class="lede" style="margin-top:2rem">Thank you.</p>
+  </section>
+
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="slide-index" id="slide-index"></div>
+
+<script src="manifest.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

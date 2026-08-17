@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>S09 Demo Measure — FinOps for Agentic Coding</title>
+<link rel="stylesheet" href="../base.css">
+<link rel="stylesheet" href="../app.css">
+<style>#deck { background: #d8d3c8; } .slide { display: flex !important; margin: 2rem auto; }</style>
+</head>
+<body>
+<!-- Standalone reference copy of this slide, for editing/review in isolation.
+     The presented deck is docs/index.html, which embeds this same content
+     inline (see manifest.js) so it works with zero cross-origin fetch risk
+     when opened directly from disk. Keep this file and its <section> in
+     index.html in sync when editing. -->
+<div id="deck">
+<section class="slide active" id="s09-demo-measure">
+    <h2>Demo 3 — Measure</h2>
+    <h1>It's already in your logs.</h1>
+    <div class="grid-2">
+      <div class="col">
+        <h3>Measured</h3>
+        <ul>
+          <li>Session & model cost</li>
+          <li>Subagent delegation cost — exact</li>
+        </ul>
+      </div>
+      <div class="col no">
+        <h3>Modeled</h3>
+        <ul>
+          <li>In-session skill cost — turn-attributed estimate</li>
+        </ul>
+      </div>
+    </div>
+    <pre class="code-block">python3 build_db.py && python3 export_dashboard.py
+open dashboard.html   # your logs, live</pre>
+  </section>
+</div>
+</body>
+</html>

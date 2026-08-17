@@ -1,0 +1,10 @@
+{
+  "name": "finops-govern",
+  "displayName": "FinOps — Governed Cost-Aware Loop",
+  "description": "Demo 2 (GOVERN) from the FinOps for Agentic Coding workshop: a versioned, pinned skill capturing a cheap repeatable workflow, gated by a spend policy hook that reads Demo 3's local cost meter.",
+  "version": "1.0.0",
+  "author": {
+    "name": "claude-finops-workshop contributors"
+  },
+  "keywords": ["finops", "governance", "cost-control", "workshop"]
+}

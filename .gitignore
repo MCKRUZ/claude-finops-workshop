@@ -1,0 +1,16 @@
+# Generated FinOps artifacts — contain YOUR real local usage data
+# (project paths, session ids, token/dollar figures). Never committed.
+demos/demo3-meter/finops.db
+demos/demo3-meter/dashboard.html
+demos/demo3-meter/dashboard_data.json
+demos/demo3-meter/EVIDENCE.md
+demos/demo3-meter/advanced/*.db
+demos/demo3-meter/advanced/otel_capture.jsonl
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

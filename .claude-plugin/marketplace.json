@@ -1,0 +1,15 @@
+{
+  "name": "claude-finops-workshop",
+  "description": "Plugins for the FinOps for Agentic Coding workshop (Claude Code port): governed, cost-aware workflows and spend-gate hooks.",
+  "owner": {
+    "name": "claude-finops-workshop contributors"
+  },
+  "plugins": [
+    {
+      "name": "finops-govern",
+      "source": "./demos/demo2-govern",
+      "description": "Demo 2 (GOVERN): a pinned, reusable cost-aware workflow skill plus a spend-gate hook that reads Demo 3's local FinOps meter.",
+      "version": "1.0.0"
+    }
+  ]
+}
